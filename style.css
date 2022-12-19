@@ -71,7 +71,7 @@ img {
 }
 
 .hero-banner {
-  background-image: url("../../images/portfolio1.jpg");
+  background-image: url("./images/portfolio1.jpg");
   display: 100%;
   min-height: 200px;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ img {
 }
 
 #item1 {
-  background-image: url("../../images/code-refactoring.jpg");
+  background-image: url("./images/code-refactoring.jpg");
   grid-area: item1;
   flex-direction: column;
   justify-content: flex-end;
@@ -107,7 +107,7 @@ img {
 
 }
 #item2 {
-  background-image: url("../../images/image2.jpg");
+  background-image: url("./images/image2.jpg");
   grid-area: item2;
   flex-direction: column;
   justify-content: flex-end;
@@ -116,7 +116,7 @@ img {
   /* position: relative; */
 }
 #item3 {
-  background-image: url("../../images/css-cheatsheet.jpg");
+  background-image: url("./images/css-cheatsheet.jpg");
   grid-area: item3;
   flex-direction: column;
   justify-content: flex-end;
@@ -124,7 +124,7 @@ img {
   /* position: relative; */
 }
 #item4 {
-  background-image: url("../../images/html-project.jpg");
+  background-image: url("./images/html-project.jpg");
   grid-area: item4;
   flex-direction: column;
   justify-content: flex-end;
@@ -132,7 +132,7 @@ img {
   /* position: relative; */
 }
 #item5 {
-  background-image: url("../../images/project5.jpg");
+  background-image: url("./images/project5.jpg");
   grid-area: item5;
   flex-direction: column;
   justify-content: flex-end;
