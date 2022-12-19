@@ -86,3 +86,214 @@ img {
 }
 .hero-banner h2{ color: white;
  background-color: rgb(39, 36, 36);}
+
+.title {
+  padding: 0.5rem;
+}
+
+.page-section {
+  padding: 1rem;
+  border: 1px white solid;
+}
+
+#item1 {
+  background-image: url("../../images/code-refactoring.jpg");
+  grid-area: item1;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  /* position: relative; */
+
+}
+#item2 {
+  background-image: url("../../images/image2.jpg");
+  grid-area: item2;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+}
+#item3 {
+  background-image: url("../../images/css-cheatsheet.jpg");
+  grid-area: item3;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  /* position: relative; */
+}
+#item4 {
+  background-image: url("../../images/html-project.jpg");
+  grid-area: item4;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  /* position: relative; */
+}
+#item5 {
+  background-image: url("../../images/project5.jpg");
+  grid-area: item5;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.item-first {
+  min-height: 400px;
+  position: relative;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid 1px white;
+}
+.item {
+  border-radius: 8px;
+  min-height: 150px;
+  margin: 1rem 0;
+  opacity: 0.9;
+  border: solid 1px white;
+}
+.item:hover , .item-first:hover{
+  box-shadow: outset;
+  opacity: 1;
+  cursor: pointer;
+  /* -webkit-box-shadow: 0px 16px 39px -23px rgba(230,85,85,1);
+  -moz-box-shadow: 0px 16px 39px -23px rgba(230,85,85,1);
+  box-shadow: 0px 16px 39px -23px rgba(230,85,85,1); */
+
+  -webkit-box-shadow: 0px 16px 47px -14px rgb(250, 250, 250);
+-moz-box-shadow: 0px 16px 47px -14px rgba(250, 250, 250,1);
+box-shadow: 0px 16px 47px -14px rgba(250, 250, 250,1);
+
+}
+#work {
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid:
+    " section-name item1 item1 item1 item1 item1 item1 item1 item1 "
+    " . item2 item2 item2 item2 item3 item3  item3 item3 "
+    " . item4 item4 item4 item4 item5 item5  item5 item5 "
+    
+}
+
+.section-name {
+  grid-area: section-name;
+}
+.item-title {
+  background-color: rgba(48, 54, 58, 0.8);
+  position: relative;
+  /* top: -10%; */
+  /* display: inline-block;  */
+  max-height:fit-content; 
+  padding: 1rem 0.4rem 0 0;
+ border-radius: 8px;
+  /* margin:0 1rem ; */
+ 
+ 
+}
+
+#about{
+  padding: 2rem 0.5rem;
+  margin-top: 4rem;
+  ;
+  
+}
+.section-name{
+  color: rgb(12, 12, 12);
+  border-right: 4px solid rgb(5, 5, 5);
+  margin: 2rem 1rem;
+  min-width: 150px;
+}
+p{
+  color: white;
+  padding: 0.5rem;
+}
+
+#contact ul{
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+ a{
+  /* display: block; */
+  /* padding: 0.2rem; */
+  color: azure;
+  text-decoration: none;
+  opacity: 0.8;
+} 
+.nav-list-item:hover{
+  opacity: 0.1;
+}
+a:hover{
+  color: white;
+  opacity: 1;
+  
+}
+.about-me-list a{
+  color: white;
+  font-weight: 900;
+}
+.item-subtitle{
+  color: rgb(245, 247, 248);
+  padding: 0.5rem;
+}
+.item-description{
+  color: antiquewhite;
+  font-weight: 500;
+}
+.image{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-me-list a:hover{
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    background-color: rgb(47, 98, 207);
+  }
+
+  #work{
+    display: flex;
+    flex-direction:column;
+  }
+
+  #contact{
+
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  #contact ul {
+    flex-direction: column;
+  }
+  .section-name{
+    border-right: none;
+    border-bottom:solid white 5px;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-picture{
+    position:static;
+  }
+  
+}
