@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mihai Stan // Front End Developer</title>
+    <link rel="stylesheet" type="text/css" href= "starter/css/style.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  <body>
+    <div id="wrapper">
+      <!-- main logo / nav -->
+      <header class="header container">
+        <h1 class="title">Mihai Stan</h1>
+        <div id="profile-picture-container">
+          <img
+            class="profile-picture"
+            src="images/Profile picture.JPG"
+            alt="profile image"
+          />
+        </div>
 
-<body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+        <nav id="header-nav">
+          <ul class="nav-ul container">
+            <li class="nav-list-item">About Me</li>
+            <li class="nav-list-item">Work</li>
+            <li class="nav-list-item">Contact Me</li>
+            <li class="nav-list-item">Resume</li>
+          </ul>
+        </nav>
+      </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+      <!-- hero banner -->
+      <section class="hero-banner">
+        <div>
+          <h2>Projects Portfolio</h2>
+        </div>
+      </section>
+
+      <main class="page-wrapper">
+        <!-- about me -->
+        <section class="page-section container" id="about">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            adipisci, provident fugiat error ut tenetur aliquid vero atque
+            corrupti pariatur consequuntur, placeat non. Cupiditate eveniet
+            fugit vitae ducimus, esse quae.
+          </p>
+        </section>
+
+        <!-- portfolio container -->
+        <section class="page-section container" id="work">
+          <h2>Work</h2>
+          <div class="container" id="item-catalogue">
+            <div class="item">
+              <h3>Prework study guide</h3>
+              <img src="#" alt="picture describing a Weather app" />
+            </div>
+            <div class="item">
+              <h3>Horiseon challenge</h3>
+              <img src="#" alt="" />
+            </div>
+            <div class="item">
+              <h3>CSS Snippet Cheatsheet</h3>
+              <img src="" alt="" />
+            </div>  
+        </section>
+
+        <!-- contact -->
+        <section class="page-section contact container" id="contact">
+          <h2>Contact Me</h2>
+          <ul>
+            <li class="about-me-list">Email:mihai.stan1988@gmail.com</li>
+            <li class="about-me-list">Phone No. 077576757**</li>
+            <li class="about-me-list">Social Media</li>
+          </ul>
+        </section>
+      </main>
     </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
-
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
-
-</html>
+  </body>
+</html
